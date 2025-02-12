@@ -1,0 +1,157 @@
+//////////////////////////////
+// NVIDIA GeForce RTX 4070	//
+// Live Extraction (WinDBG)	//
+// Driver Version: 572.16	//
+// 12.02.2025 - St1cky 		//
+//////////////////////////////
+
+1600877NV = 00
+1893545NV = 00
+AllowEscapesInCompatMode = 00
+AllowHWGC6 = 01
+AllowVgpuTcc = 00
+AllowWddmOnTesla = 00
+AllowdGPUPassthrough = 00
+BuffersInFlight = 00000020 = (32d)
+CppKernelNotEnforced = 00
+DestroyAllocationAssumeNotInUse = 00
+DisableBugcheckCallback = 00
+DisableCudaContextPreemption = 00
+DisableDWMContexts = 00
+DisableForcedRMHwSchedulingWARs = 00
+DisableKmRender = 00
+DisableKmRenderBoost = 00
+DisableKmRenderStage = 01
+DisableMSHybridCopyCQHas3D = 00
+DisableMshybridNvsrSwitch = 00
+DisablePreemption = 00
+DisablePreemptionOnS3S4 = 00
+DispCtrl = 00000001
+DriverDebugBreakMode =  = 00000000
+DriverModel = 00003200 > WDDM = 3.2
+EGPULockReOrderingWAR = 01
+EmuCalibrateGPUClock = 00000000
+Emulator = 00000000
+EmulatorDeviceMask = 00000100
+EnableAsyncMidBufferPreemption = 01
+EnableBlackListingSurpriseRemovalWAR = 01
+EnableBugcheckDisplay; = 01
+EnableBugcheckTinting = 00
+EnableCEFormatConversion = 1
+EnableCEPaging = 01
+EnableCEPreemption = 0101
+EnableCcx = 00
+EnableComputeReset = 01
+EnableCrossAdapterResource = 80000001
+EnableDIFR = 00
+EnableDirectFlip = 01
+EnableDx12OnMsHybrid = 01
+EnableDynamicEdidMode = ffffffff
+EnableEGpuGuard = 01
+EnableFSN1368 = 1
+EnableFocusElevationWAR = 1
+EnableForceIgpuDgpuFromUI = 00
+EnableGFESharedMemory = 00
+EnableHDAudioD3Cold = 01
+EnableHdr10Scanout = 00
+EnableIMPSetGetParams = 00
+EnableIoMmu = 01
+EnableIoMmuOnSLI = 01
+EnableIommuIsolationOnWDDM216 = 00
+EnableKMBufferResetEngineOnNonSLI = 00
+EnableLoadImage = 00
+EnableLoggingInterface = 00
+EnableMidBufferPreemption = 01
+EnableMidBufferPreemptionForHighTdrTimeout = 00
+EnableMidGfxPreemption = 01
+EnableMidGfxPreemptionVGPU = 01
+EnableMidGfxpSharedBuffer01
+EnableMigBaremetalSimulation = 00000000
+EnableMosaicBlitSlicing = 01
+EnableNewSemaphoreExec = 01
+EnableNodeCuda = 01
+EnableNopPaddingMBP = 01
+EnableNvLinkControlObject = 00000001
+EnablePageFaultDebugOutput = 01
+EnablePerformanceMode = 01
+EnableRedundantAdapterCheckingForXGPU = 01
+EnableRegistry = 00000000
+EnableReleaseDisplayOwnership = 01
+EnableRewind = 01
+EnableRmEscape = 00
+EnableSCGMidBufferPreemption = 00
+EnableSegmentPreservation = 01
+EnableSparseTexture = 01
+EnableTestEscapes = 00
+EnableUnifiedKind = 00000001
+EnableValidationOfGPUMemoryAddressability = 01
+EnableVgpuLogLevel = 00000002
+EnableWARLBDATEXTRA = 00
+EvoTimeoutBugcheck = 00
+FiltereGPUResizableBAR1 = 00000000
+ForceCrossAdapterSurfacesToCachedMem = 01
+ForceOsMmuFaultHandler = 00
+ForceVAAlignment2M = 00000000
+GC6Threshold = 00
+HDAudioCoprocDynamicDelayRefresh = 01
+HyperSamplingSettings = 00000000
+InvalidateTlbByPDEOne = 01
+LargeSurfSizeBy2DFill = ffffffff
+MCDMSupported = 1
+MaxGfxpSupportNumber = 00001388 = (5000)
+MergeFECSandTSLogs = 01
+ModsMode = 00
+MoveToBufferBoundaryPreemption = 01
+NVFBCEnable = 00
+NodeCudaTimeSlice = 00000000
+PStateControlType = 00000000
+PageFaultDebugMode = 00000000
+PreferSystemMemoryContiguous = 01
+PreferSystemMemoryPTEs = 00
+PreferSystemMemoryScratch = 00
+PresentSyncAdaptiveVblankTimeoutMode = 00000002
+PresentSyncAppTimeoutMS = 00000708 = (1800d)
+PresentSyncVblankTimeoutMS = 00000019 = (25d)
+PrimaryPushBufferSize = 00002000 = (8192d)
+PushBufferLocation = 00000000`00000000
+RealTimeRunlist = 0
+RealTimeRunlistLimitMs = 00000005
+ReleaseAssertBehavior = 00000000
+ReportVblankImmediatelyOnDisplaylessHw = 00
+RotateFlag = 00000010
+SchedulerLogDebugMode = 00
+SemaphoreLocation = 00
+TDRTestEnableTiming = 00
+TargetNormalBandPercentageMultiplier = 00000001
+TargetNormalBandPercentageTimeInterval = 00000040 = (64d)
+UMDPowerFeatureConfig = 80000000h = (2147483648d, 10000000000000000000000000000000b )
+Usb4DisplayControl = 1
+UseDpcForGpuWatchdogCallback = 00
+UvmDisable = 00
+ValidateBlitSubRects = 01
+WDDMV21EnableDualPteForCPUVisible = 01
+WDDMV2DoNotUseRealVpr = 00000000
+WDDMV2RmUnlinkedSLI = 00000001
+WDDMV2_128K_PTE = 00000000
+WDDMv21Enable2MPageSupport; = 01
+WDDMv21Enable64KbSysmemSupport = 01
+WDDMv21EnableVPRSLI = 01
+WDDMv21EnableVprPagingContext = 00
+WDDMv21Force2MSizeAlignment; = 00
+WDDMv21VprProfile = 01
+WDDMv22EnableSetTimingsDdi = 01
+WDDMv22EnableSmoothTransition = 00
+WDDMv2CPUHostBar1Percentage = 00000000
+WDDMv2DisableRenderGDI = 00
+WDDMv2ForceEngineResetForHwError = 01
+WDDMv2InvalidatePDEsForReserveVA = 00
+WDDMv2SupportPageTableInSystemMemory = 00
+WDDMv2vEnablePBMM = 00
+WDDMv2vEnableSLIonCV = 01
+WakeUpAllAdapters = 00
+bForceDualVideoBridgeMode = 00
+bWDDMv2ValidateCtxsaveIntegrity = 00000000
+checkForIsrBufferIDProgressAtDpc = 00
+prtBreak = 00000000
+prtLevel = 00000000
+useSemaphoreMgrForGpu = 01
