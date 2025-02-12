@@ -12,7 +12,7 @@ AllowHWGC6 = 1
 AllowVgpuTcc = 0
 AllowWddmOnTesla = 0
 AllowdGPUPassthrough = 0
-BuffersInFlight = 00020 = (32d)
+BuffersInFlight = 00020 = (32d) // Max Value 32
 CppKernelNotEnforced = 0
 DestroyAllocationAssumeNotInUse = 0
 DisableBugcheckCallback = 0
