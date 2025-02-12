@@ -1,8 +1,8 @@
 //////////////////////////////
-// NVIDIA GeForce RTX 4070	//
-// Live Extraction (WinDBG)	//
-// Driver Version: 572.16	//
-// 12.02.2025 - St1cky 		//
+// NVIDIA GeForce RTX 4070  //
+// Live Extraction (WinDBG) //
+// Driver Version: 572.16   //
+// 12.02.2025 - St1cky      //
 //////////////////////////////
 
 1600877NV = 00
@@ -65,7 +65,7 @@ EnableMidBufferPreemption = 01
 EnableMidBufferPreemptionForHighTdrTimeout = 00
 EnableMidGfxPreemption = 01
 EnableMidGfxPreemptionVGPU = 01
-EnableMidGfxpSharedBuffer01
+EnableMidGfxpSharedBuffer = 01
 EnableMigBaremetalSimulation = 00000000
 EnableMosaicBlitSlicing = 01
 EnableNewSemaphoreExec = 01
