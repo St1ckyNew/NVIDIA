@@ -99,6 +99,7 @@ InvalidateTlbByPDEOne = 1
 LargeSurfSizeBy2DFill = ffffffff
 MCDMSupported = 1
 MaxGfxpSupportNumber = 01388 = (500)
+MaxHybridSurfSize = 00a00000 (10485760d = 10MB)  // less than 10 MB, it enforces 10 MB
 MergeFECSandTSLogs = 1
 ModsMode = 0
 MoveToBufferBoundaryPreemption = 1
